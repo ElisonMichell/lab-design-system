@@ -7,7 +7,8 @@ export default {
 	title: 'Components/Checkbox',
 	component: Checkbox,
   args: {
-    disabled: false
+    disabled: false,
+    title: "Remember me"
   },
   decorators: [
     (Story) => {

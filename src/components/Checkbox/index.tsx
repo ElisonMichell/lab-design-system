@@ -3,6 +3,7 @@ import { Check } from 'phosphor-react';
 
 interface CheckboxProps {
   disabled?: boolean
+  title?: string
 }
 
 function Checkbox(props:CheckboxProps) {

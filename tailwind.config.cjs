@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: [
     './src/**/*.tsx',
   ],
@@ -71,8 +72,19 @@ module.exports = {
     },
     dropShadow: {
       default: '0 4px 2px rgba(0, 0, 0, 0.3)',
-      '3D': ['0 4px 2px rgba(0, 0, 0, 0.3)', '0 -4px 2px #FFFFFF']
+      'login': '0 0 40px rgba(33, 39, 58, 0.3)',
+      '3d-light': ['0 4px 2px rgba(0, 0, 0, 0.3)', '0 -4px 2px rgba(255, 255, 255, 1)'],
+      '3d-dark': ['0 4px 2px rgba(0, 0, 0, 0.3)', '0 -4px 2px rgba(255, 255, 255, 0.05)'],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'login-gradient': "url('/src/assets/flare.jpg')",
+        dark: 'linear-gradient(#21273A, #161730)'
+      },
+      screens: {
+        'md': '869px',
+        'lg': '1113px'
+      }
+    },
   }
 }

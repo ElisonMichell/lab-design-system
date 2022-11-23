@@ -32,35 +32,46 @@ function InputRoot(props:InputRootProps) {
   )
 }
 
+InputRoot.displayName = 'TextInput.Root';
+
 function InputTitle(props:InputTitleProps) {
   return(
-    <Text color='dark' size='lg'>
+    <Text size='lg' darkMode>
       {props.title}
     </Text>
   ) 
 }
 
+InputTitle.displayName = 'TextInput.Title';
+
 function InputContent(props:InputContentProps) {
   return(
-    <div className='flex gap-4 px-4 h-12 border-2 border-light-300 rounded focus-within:border-primary-100'>
+    <div className='flex gap-4 px-4 h-12 border-2 transition-colors duration-300 ease-in-out 
+    border-light-300 dark:border-dark-100 rounded focus-within:border-primary-100'>
       {props.children}
     </div>
   ) 
 }
 
+InputContent.displayName = 'TextInput.Content';
+
 function InputIcon(props:InputIconProps) {
   return(
-    <Slot className='w-6 h-6 text-light-300 mt-auto mb-auto'>
+    <Slot className='min-h-max min-w-max text-light-300 mt-auto mb-auto'>
       {props.children}
     </Slot>
   )
 }
 
+InputIcon.displayName = 'TextInput.Icon';
+
 function InputElement(props:InputElementProps) {
   return(
-    <input className='flex-1 bg-transparent outline-none placeholder:text-light-300 text-dark-100' {...props}/>
+    <input className='flex-1 w-full bg-transparent outline-none placeholder:text-light-300 text-dark-100' {...props}/>
   )
 }
+
+InputElement.displayName = 'TextInput.Input';
 
 export const TextInput = {
   Root: InputRoot,

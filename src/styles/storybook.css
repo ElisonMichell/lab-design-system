@@ -3,5 +3,5 @@
 @tailwind components;
 
 html {
-  @apply font-sans text-body-sm bg-dark-300 dark:bg-light-200;
+  @apply font-sans text-body-sm;
 }
