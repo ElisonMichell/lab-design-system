@@ -13,13 +13,13 @@ export interface TextProps {
 }
 
 function Text({size = 'md', color = 'dark', children, asChildren, shadow, darkMode}: TextProps) {
-  const Component = asChildren ? Slot : 'span'
+  const Component = asChildren ? Slot : 'p'
 
   return(
     <Component 
       className={clsx('text-body-xs',
         {
-          'sm:text-heading-sm': size === 'sm',
+          'sm:text-body-sm': size === 'sm',
           'sm:text-body-sm md:text-body-md': size === 'md',
           'sm:text-body-md md:text-body-lg': size === 'lg',
           'sm:text-body-md md:text-body-lg lg:text-body-xl': size === 'xl',

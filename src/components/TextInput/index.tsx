@@ -57,7 +57,7 @@ InputContent.displayName = 'TextInput.Content';
 
 function InputIcon(props:InputIconProps) {
   return(
-    <Slot className='min-h-max min-w-max text-light-300 mt-auto mb-auto'>
+    <Slot className='min-h-max min-w-max h-6 w-6 text-light-300 mt-auto mb-auto'>
       {props.children}
     </Slot>
   )

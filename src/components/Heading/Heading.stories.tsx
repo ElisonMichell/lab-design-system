@@ -11,11 +11,22 @@ export default {
 		size: 'md',
 		color: 'dark',
 		shadow: false,
+		darkMode: false,
   },
 	argTypes: {
 		size: {
 			control: {
 				type: 'inline-radio'
+			}
+		},
+		asChildren: {
+			table: {
+				disable: true
+			}
+		},
+		darkMode: {
+			table: {
+				disable: true
 			}
 		}
 	}
@@ -65,8 +76,10 @@ export const CustomComponent: StoryObj<HeadingProps> = {
 		children: <h1>Heading</h1>
 	},
 	argTypes: {
-		children: {
-			control: false
+		asChildren: {
+			table: {
+				disable: true
+			}
 		}
 	}
 }

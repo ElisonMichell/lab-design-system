@@ -1,10 +1,11 @@
 import { Meta, StoryObj } from '@storybook/react';
-import Text, { TextButtonProps } from './index';
+import TextButton, { TextButtonProps } from './index';
 
 export default {
-  title: 'Components/Text',
-  component: Text,
+  title: 'Components/TextButton',
+  component: TextButton,
   args: {
+		title: 'Button',
 		size: 'md',
 		color: 'primary',
 		shadow: false,
@@ -41,12 +42,6 @@ export const Large: StoryObj<TextButtonProps> = {
 export const ExtraLarge: StoryObj<TextButtonProps> = {
 	args: {
 		size: 'xl'
-	}
-}
-
-export const ColorPrimary: StoryObj<TextButtonProps> = {
-	args: {
-		color: 'primary'
 	}
 }
 

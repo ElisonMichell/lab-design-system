@@ -11,7 +11,7 @@ export interface TextButtonProps extends ButtonHTMLAttributes<HTMLButtonElement>
 function TextButton({size = 'md', title, color, shadow, ...props}: TextButtonProps) {
   return(
     <button 
-      className={clsx('hover:underline',
+      className={clsx('hover:underline active:brightness-125',
         {
           'text-body-xs': size === 'xs',
           'text-body-sm': size === 'sm',

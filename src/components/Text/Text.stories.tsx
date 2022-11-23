@@ -11,11 +11,22 @@ export default {
 		size: 'md',
 		color: 'dark',
 		shadow: false,
+		darkMode: false,
   },
 	argTypes: {
 		size: {
 			control: {
 				type: 'inline-radio'
+			}
+		},
+		asChildren: {
+			table: {
+				disable: true
+			}
+		},
+		darkMode: {
+			table: {
+				disable: true
 			}
 		}
 	}
@@ -66,7 +77,9 @@ export const CustomComponent: StoryObj<TextProps> = {
 	},
 	argTypes: {
 		children: {
-			control: false
+			table: {
+				disable: true
+			}
 		}
 	}
 }
