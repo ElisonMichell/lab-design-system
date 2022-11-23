@@ -1,4 +1,4 @@
-<a href="https://ignite-lab-react-beryl.vercel.app">
+<a href="https://lab-design-system-elisonmichell.vercel.app">
   <img alt="Header" src="https://user-images.githubusercontent.com/97061419/203648832-38b9125d-0e14-4bd6-b183-3367fe518592.png" />
 </a>
 
@@ -7,10 +7,10 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ElisonMichell/lab-design-system?color=00A1E0&style=for-the-badge" />
   <img alt="GitHub license" src="https://img.shields.io/github/license/ElisonMichell/lab-design-system?color=00A1E0&style=for-the-badge" />
   <img alt="Status" src="https://img.shields.io/static/v1?label=Status&message=Complete&color=00A1E0&style=for-the-badge" />
-  <a href="https://ignite-lab-react-beryl.vercel.app">
+  <a href="https://lab-design-system-elisonmichell.vercel.app">
     <img alt="Link" src="https://img.shields.io/static/v1?label=Access Page&message=Link&color=2EA043&style=for-the-badge" />
   </a>
-  <a href="https://ignite-lab-react-beryl.vercel.app">
+  <a href="https://elisonmichell.github.io/lab-design-system/">
     <img alt="Link" src="https://img.shields.io/static/v1?label=Access Storybook&message=Link&color=red&style=for-the-badge" />
   </a>
 </div>
@@ -56,7 +56,7 @@
 
 ## 🗃 Design System
 
-<p>All components are documented in the Storybook.</p>
+<p>All components are documented in the <a href="https://elisonmichell.github.io/lab-design-system/">Storybook.</a></p>
 
 ![storybook](https://user-images.githubusercontent.com/97061419/203654457-3a611474-0efa-4b19-ba47-de574e69808a.png)
 
