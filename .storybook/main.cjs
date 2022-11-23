@@ -18,7 +18,7 @@ module.exports = {
     "interactionsDebugger": true,
   },
   "staticDirs": [
-    "../public"
+    "../public" 
   ],
   viteFinal: (config, {configType}) => {
     if (configType === 'PRODUCTION') {
