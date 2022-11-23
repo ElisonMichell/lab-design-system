@@ -1,0 +1,2 @@
+import{L as o}from"./index.ed48321d.js";import"./index.bf2944d4.js";import"./clsx.m.256e9345.js";import"./index.module.46573ead.js";import"./jsx-runtime.1f476dd6.js";import"./iframe.64dc5b25.js";const s={title:"Components/Logo",component:o,args:{variant:"light"},argTypes:{variant:{control:{type:"inline-radio"}}}},p={},m={args:{variant:"dark"}},g=["Default","Dark"];export{m as Dark,p as Default,g as __namedExportsOrder,s as default};
+//# sourceMappingURL=Logo.stories.778003dd.js.map
